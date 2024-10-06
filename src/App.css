@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-gradient-x{
+  background: linear-gradient(to right, #FFA500, #FFF44F);
+}
+.main-gradient{
+  background: linear-gradient(to bottom, #FFA500, #FFFFFF);
+}
+.main-gradient-rev{
+  background: linear-gradient(to bottom, #FFFFFF, #FFA500);
+}
+.footer-gradient{
+  background: linear-gradient(to bottom, #110C4C, #010032);
+}
+.title-gradient{
+  background: linear-gradient(to bottom, #AFBCE8,#EAEAEA)
+}
+.z-min{
+  z-index: -1;
+}
+.z-mid{
+  z-index: 5;
+}
+.z-mid-plus{
+  z-index: 6;
+}
+.z-max{
+  z-index: 99999;
+}
+.z-max-sub{
+  z-index: 99998;
+}
+.colorful-text {
+  text-shadow: 2px 2px 4px #010032;
+}
+.shadow-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.justified-text {
+  text-align: justify;
+}
+.inline-block{
+  display: inline-block
+}
+.animate__delay-200ms {
+  animation-delay: 0.2s;
+}
+.animate__delay-300ms {
+  animation-delay: 0.3s;
+}
+.animate__delay-400ms {
+  animation-delay: 0.4s;
+}
+.animate__delay-500ms {
+  animation-delay: 0.5s;
+}
+.animate__delay-600ms {
+  animation-delay: 0.6s;
+}
+.animate__delay-700ms {
+  animation-delay: 0.7s;
+}
+.animate__delay-800ms {
+  animation-delay: 0.8s;
+}
+.animate__delay-900ms {
+  animation-delay: 0.9s;
+}
+.animate__delay-1250ms {
+  animation-delay: 1.25s;
+}
+.animate__delay-1500ms {
+  animation-delay: 1.5s;
+}
+.animate__delay-1800ms {
+  animation-delay: 1.8s;
+}
+.animate__delay-2300ms {
+  animation-delay: 2.3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Optima'; /* 字体名称 */
+  src: url('/public/font/optima-regular-1.ttf') format('truetype'); /* 字体文件路径和格式 */
+  font-weight: normal;
+  font-style: normal;
+}
+.font-optima {
+  font-family: 'Optima', sans-serif; /* 使用自定义字体，如果不可用则使用备用字体 */
+}
+@font-face {
+  font-family: 'Futura'; /* 字体名称 */
+  src: url('/public/font/Futura-Medium-6.ttf') format('truetype'); /* 字体文件路径和格式 */
+  font-weight: normal;
+  font-style: normal;
+}
+.font-futura {
+  font-family: 'Futura', sans-serif; /* 使用自定义字体，如果不可用则使用备用字体 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*需要的东西：
+全套长高（高附带lineheight） .w1    .h1
+定位 绝对 相对           .pos-ab .pos-re
+左右居中        .center
+自动边距        .ma
+flex全家桶  下滑线链接    顺序：
+                               flex-direction    r  c
+
+                               flex-wrap        n   w
+
+                               justify-content  flex-start  flex-end center space-between  space-around
+                                                           fs             fe          c              sb                   sa
+                               align-item          fs | c | fe
+*/
+/*@import '~antd/dist/antd.css';*/
+.pos-ab{
+  position:absolute;
+}
+.pos-re{
+  position:relative;
+}
+.pos-fx{
+  position:fixed;
+}
+.center{
+  text-align:center;
+  align-items:center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hover-color-change:hover{
+  color:#FA541C;
 }
 
-.App-link {
-  color: #61dafb;
+.hover-underline:hover{
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.cursor-default{
+  cursor: default;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.hidden{
+  display: none;
+}
+
+.flex-r-n-fs-fs{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-items:flex-start;} .flex-r-n-fs-fe{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-items:flex-end;} .flex-r-n-fs-c{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-items:center;} .flex-r-n-fe-fs{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-end;align-items:flex-start;} .flex-r-n-fe-fe{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-end;align-items:flex-end;} .flex-r-n-fe-c{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-end;align-items:center;} .flex-r-n-c-fs{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:flex-start;} .flex-r-n-c-fe{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:flex-end;} .flex-r-n-c-c{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;align-items:center;} .flex-r-n-sb-fs{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;align-items:flex-start;} .flex-r-n-sb-fe{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;align-items:flex-end;} .flex-r-n-sb-c{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-between;align-items:center;} .flex-r-n-sa-fs{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-around;align-items:flex-start;} .flex-r-n-sa-fe{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-around;align-items:flex-end;} .flex-r-n-sa-c{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:space-around;align-items:center;} .flex-r-w-fs-fs{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;} .flex-r-w-fs-fe{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:flex-end;} .flex-r-w-fs-c{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:center;} .flex-r-w-fe-fs{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;} .flex-r-w-fe-fe{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;align-items:flex-end;} .flex-r-w-fe-c{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-end;align-items:center;} .flex-r-w-c-fs{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:flex-start;} .flex-r-w-c-fe{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:flex-end;} .flex-r-w-c-c{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;} .flex-r-w-sb-fs{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;} .flex-r-w-sb-fe{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;} .flex-r-w-sb-c{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;align-items:center;} .flex-r-w-sa-fs{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;} .flex-r-w-sa-fe{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:flex-end;} .flex-r-w-sa-c{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-around;align-items:center;} .flex-c-n-fs-fs{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-start;align-items:flex-start;} .flex-c-n-fs-fe{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-start;align-items:flex-end;} .flex-c-n-fs-c{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-start;align-items:center;} .flex-c-n-fe-fs{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-end;align-items:flex-start;} .flex-c-n-fe-fe{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-end;align-items:flex-end;} .flex-c-n-fe-c{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-end;align-items:center;} .flex-c-n-c-fs{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:center;align-items:flex-start;} .flex-c-n-c-fe{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:center;align-items:flex-end;} .flex-c-n-c-c{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:center;align-items:center;} .flex-c-n-sb-fs{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-between;align-items:flex-start;} .flex-c-n-sb-fe{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-between;align-items:flex-end;} .flex-c-n-sb-c{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-between;align-items:center;} .flex-c-n-sa-fs{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-around;align-items:flex-start;} .flex-c-n-sa-fe{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-around;align-items:flex-end;} .flex-c-n-sa-c{display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:space-around;align-items:center;} .flex-c-w-fs-fs{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;} .flex-c-w-fs-fe{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;align-items:flex-end;} .flex-c-w-fs-c{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;align-items:center;} .flex-c-w-fe-fs{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;} .flex-c-w-fe-fe{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-end;align-items:flex-end;} .flex-c-w-fe-c{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-end;align-items:center;} .flex-c-w-c-fs{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:flex-start;} .flex-c-w-c-fe{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:flex-end;} .flex-c-w-c-c{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:center;align-items:center;} .flex-c-w-sb-fs{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;} .flex-c-w-sb-fe{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;} .flex-c-w-sb-c{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-between;align-items:center;} .flex-c-w-sa-fs{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-around;align-items:flex-start;} .flex-c-w-sa-fe{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-around;align-items:flex-end;} .flex-c-w-sa-c{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:space-around;align-items:center;}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
