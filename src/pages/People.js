@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import ThemePic from "../components/ThemePic";
 import IDCard from "../components/IDCard";
 
-const People =()=>{
+const People =()=>{//sdfsfd
     return <div className={'h-max w-full flex-c-n-c-c'}>
         <Header
             currentPage={'People'}
