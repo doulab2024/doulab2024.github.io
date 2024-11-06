@@ -8,18 +8,19 @@ const Home =()=>{
             isTopWhite={false}
         />
         <div className={'h-32'}/>
-        <div className={'text-4xl font-futura mb-20'}>Doulab of RNA Biology & Bioinformatics </div>
+        <div className={'text-4xl font-futura mb-4'}>Welcome to the Dou Group! </div>
+        <div className={'text-3xl font-futura mb-20'}>RNA biology and chromatin regulation, computational biology</div>
         <img
             className={'w-3/5 mb-20'}
             src={'/pic/homePagePic1.png'}
         />
-        <div className={'flex-c-n-c-c w-3/5 font-futura text-justify text-lg mb-28'}>
-            Non-coding RNAs and their chemical modifications serve as core regulatory factors within gene regulatory networks. They play crucial roles in the interactions between RNA and other biomolecules such as proteins, DNA, and other RNAs. These interactions are essential for regulating chromatin remodeling and gene transcription activation, which in turn affect a wide range of biological processes. Our research aims to deepen the understanding of regulatory non-coding RNAs and their chemical modifications, expanding their potential applications to offer new molecular targets and strategies for the prevention, diagnosis, and treatment of diseases.
+        <div className={'flex-c-n-c-c w-3/5 font-optima font-bold text-justify text-lg mb-28'}>
+            Non-coding RNAs and their chemical modifications serve as core regulatory factors within gene regulatory networks. They play crucial roles in the interactions between RNA and other biomolecules such as proteins, DNA, and other RNAs. These interactions are essential for regulating chromatin remodeling and gene transcription activation, which in turn affect a wide range of biological processes. Our research aims to deepen the understanding of regulatory non-coding RNAs and their chemical modifications, expanding their potential as molecular targets and strategies for disease prevention, diagnosis, and treatment.
             <div
-                className={'flex-r-n-c-fs w-full font-sans text-left'}
+                className={'flex-r-n-c-fs w-full text-left'}
             >
                 <div
-                    className={'flex-c-n-fs-c w-1/3 px-5 text-base'}
+                    className={'flex-c-n-fs-c w-1/3 px-5 text-justify'}
                 >
                     <svg t="1728197492686" className="w-1/2" viewBox="0 0 1024 1024" version="1.1"
                          xmlns="http://www.w3.org/2000/svg" p-id="1722" width="200" height="200">
@@ -30,7 +31,7 @@ const Home =()=>{
                     We conduct in-depth explorations of the regulatory patterns, mechanisms, and biological functions of non-coding RNAs and their chemical modifications in chromatin remodeling and gene transcription activation.
                 </div>
                 <div
-                    className={'flex-c-n-fs-c w-1/3 px-5 text-base'}
+                    className={'flex-c-n-fs-c w-1/3 px-5 text-justify'}
                 >
                     <svg t="1728197961920" className="w-1/2" viewBox="0 0 1024 1024" version="1.1"
                          xmlns="http://www.w3.org/2000/svg" p-id="15134" width="200" height="200">
@@ -41,10 +42,9 @@ const Home =()=>{
                             d="M889.856 607.914667h-126.293333a17.066667 17.066667 0 0 0-16.042667-10.581334h-126.122667l185.344-186.197333 31.061334 31.061333a17.066667 17.066667 0 1 0 24.064-24.234666l-82.602667-82.773334 36.181333-36.181333 9.386667 9.557333a47.616 47.616 0 0 0 67.242667-67.242666l-94.72-94.890667a47.616 47.616 0 0 0-67.242667 67.242667l9.386667 9.557333-36.181334 36.181333-82.773333-82.773333a17.066667 17.066667 0 0 0-24.064 0 17.066667 17.066667 0 0 0 0 24.234667l31.061333 30.890666-308.736 308.736a51.2 51.2 0 0 0-8.533333 60.245334l-17.066667 17.066666a51.2 51.2 0 0 0 0 72.362667l15.530667 15.530667-157.354667 157.525333A17.066667 17.066667 0 0 0 175.445333 887.466667l157.184-157.184 15.530667 15.530666a51.2 51.2 0 0 0 72.362667 0l17.066666-17.066666a51.2 51.2 0 0 0 48.128 0v112.469333a47.445333 47.445333 0 0 0 3.242667 17.066667h-20.138667a17.066667 17.066667 0 0 0 0 34.133333h421.034667a51.2 51.2 0 0 0 51.2-51.2V659.114667a51.2 51.2 0 0 0-51.2-51.2zM628.053333 631.466667h102.4v22.698666h-102.4z m126.122667-460.8a13.312 13.312 0 0 1 18.944 0l94.890667 94.72a13.653333 13.653333 0 0 1 0 18.944 13.312 13.312 0 0 1-18.944 0l-94.890667-94.72a13.312 13.312 0 0 1 0-18.944z m9.557333 76.629333l27.477334 27.648-36.181334 36.181333-27.648-27.648zM453.290667 454.144l13.824 13.824a17.066667 17.066667 0 0 0 24.234666 0 17.066667 17.066667 0 0 0 0-24.064L477.866667 430.08l44.714666-44.885333 39.765334 39.765333a17.066667 17.066667 0 0 0 24.064 0 17.066667 17.066667 0 0 0 0-24.234667L546.133333 361.130667l44.885334-44.885334 13.653333 13.824a17.066667 17.066667 0 0 0 24.234667 0 17.066667 17.066667 0 0 0 0-24.064l-13.824-13.824L651.605333 256l131.072 130.901333-131.413333 131.413334-212.992-48.981334z m-56.832 267.264a17.066667 17.066667 0 0 1-24.064 0L317.098667 665.6a17.066667 17.066667 0 0 1 0-24.234667l15.530666-15.36 79.36 79.189334z m77.653333-25.770667a17.066667 17.066667 0 0 1-24.234667 0l-106.837333-107.008a17.066667 17.066667 0 0 1 0-24.064l41.301333-41.472L424.106667 563.2a17.066667 17.066667 0 0 0 24.064 0 17.066667 17.066667 0 0 0 0-24.234667l-39.594667-39.594666 1.194667-1.365334L622.762667 546.133333l-60.928 61.098667h-24.746667a51.2 51.2 0 0 0-51.2 51.2v24.576z m364.544 145.408a17.066667 17.066667 0 0 1-17.066667 17.066667H537.088a17.066667 17.066667 0 0 1-17.066667-17.066667V659.114667a17.066667 17.066667 0 0 1 17.066667-17.066667h56.832v28.330667a17.066667 17.066667 0 0 0 17.066667 17.066666h136.533333a17.066667 17.066667 0 0 0 17.066667-17.066666v-28.330667h57.002666a17.066667 17.066667 0 0 1 17.066667 17.066667z m68.266667 0a17.066667 17.066667 0 0 1-17.066667 17.066667H870.4a47.445333 47.445333 0 0 0 3.242667-17.066667V659.114667a46.762667 46.762667 0 0 0-3.242667-17.066667h20.309333a17.066667 17.066667 0 0 1 17.066667 17.066667z"
                             fill="#1296db" p-id="15136"></path>
                     </svg>
-                    We analyze the causes and consequences of abnormal metabolism of non-coding RNAs and their chemical modifications in major human diseases such as neurodegenerative disorders and cancer. Additionally, we will investigate their roles and mechanisms in immunotherapy.
-                </div>
+                    We analyze the causes and consequences of abnormal metabolism of non-coding RNAs and their chemical modifications in human diseases, such as neurodegenerative disorders, cancer, and aging.                </div>
                 <div
-                    className={'flex-c-n-fs-c w-1/3 px-5 text-base'}
+                    className={'flex-c-n-fs-c w-1/3 px-5 text-justify'}
                 >
                     <svg t="1728197660052" className="w-1/2" viewBox="0 0 1024 1024" version="1.1"
                          xmlns="http://www.w3.org/2000/svg" p-id="13113" width="200" height="200">
@@ -58,8 +58,7 @@ const Home =()=>{
                             d="M450.683871 285.522581L379.870968 356.541935l-70.812903-70.812903-23.329033 23.329033 70.812903 70.812903-70.812903 70.812903 23.329033 23.329032 70.812903-70.812903 70.812903 70.812903 23.329032-23.329032-70.812903-70.812903 70.812903-70.812903-23.329032-23.535484zM512 330.322581h247.741935v33.032258H512v-33.032258zM99.096774 637.522581V924.903226h304.309678L99.096774 637.522581z m33.032258 76.593548l188.07742 177.754839H132.129032v-177.754839zM957.935484 462.451613H726.709677v132.129032h231.225807v-132.129032z m-33.032258 99.096774h-165.161291v-66.064516h165.161291v66.064516zM858.83871 660.645161h99.096774v33.032258h-99.096774v-33.032258zM726.709677 759.741935h99.096775v33.032259h-99.096775v-33.032259zM726.709677 825.806452h99.096775v33.032258h-99.096775v-33.032258zM759.741935 726.709677h33.032259v-33.032258h33.032258v-33.032258h-33.032258v-33.032258h-33.032259v33.032258h-33.032258v33.032258h33.032258v33.032258zM929.651613 764.490323L908.387097 785.96129l-21.264516-21.264516-23.329033 23.329032 21.264517 21.264517-21.264517 21.264516 23.329033 23.329032 21.264516-21.264516 21.264516 21.264516 23.329032-23.329032-21.264516-21.264516 21.264516-21.264517-23.329032-23.535483z"
                             p-id="13116" fill="#1296db"></path>
                     </svg>
-                    We investigate the fate-determining patterns of non-coding RNAs through data integration( transcriptomics, epigenomics, etc.) and deep data mining.
-                </div>
+                    We investigate the fate-determining patterns or modules of non-coding through integrative data analysis and the application of artificial intelligence technology.                </div>
             </div>
         </div>
         <Footer/>

@@ -16,17 +16,58 @@ const Footer = () => {
         <footer className="bg-gray-100 py-8 border-t w-full">
             <div className="container mx-auto flex-r-n-fs-c md:flex-row justify-between">
 
-                <div className="w-1/4">
+                <div className="w-1/3">
                     <h3 className="text-xl font-semibold mb-4 text-gray-800">Dou Group</h3>
-                    <p className="text-gray-600 mb-2">320 Yueyang Road, Xuhui District, Shanghai, 200031, China</p>
-                    <p className="text-gray-600 mb-2">中国上海市徐汇区岳阳路320号</p>
-                    <p className="text-gray-600">Email: xiaoyang.dou@sibcb.ac.cn</p>
+                    <p className="text-gray-600 mb-2">Key Laboratory of RNA Innovation, Science and Engineering (RISE)</p>
+                    <p className="text-gray-600 mb-2">CAS Center for Excellence in Molecular Cell Science (CEMCS)</p>
+                    <p className="text-gray-600 mb-2">Shanghai Institute of Biochemistry and Cell Biology (SIBCB)</p>
+                    <p className="text-gray-600 mb-2">Chinese Academy of Sciences (CAS)</p>
+                    <p className="text-gray-600">109 Yuanmei Road, Minhang District, Shanghai 201109, P.R. China (Minhang Base)</p>
                 </div>
 
 
-                <div className="mb-6 md:mb-0 w-3/4 px-20">
+                <div className="h-max w-2/3 pl-20">
+                    <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact</h3>
+                    <div
+                        className={'flex-r-n-fs-c w-full text-gray-600'}
+                    >
+                        <div
+                            className={'w-1/6'}
+                        >
+                            PI:
+                        </div>
+                        <div
+                            className={'w-1/3'}
+                        >
+                            A3 406
+                        </div>
+                        <div
+                            className={''}
+                        >
+                            xiaoyang.dou@sibcb.ac.cn
+                        </div>
+                    </div>
+                    <div
+                        className={'flex-r-n-fs-c w-full text-gray-600'}
+                    >
+                        <div
+                            className={'w-1/6'}
+                        >
+                            Lab Manager:
+                        </div>
+                        <div
+                            className={'w-1/3'}
+                        >
+                            A3 4th floor public area
+                        </div>
+                        <div
+                            className={''}
+                        >
+                            liuxinyu@sibcb.ac.cn
+                        </div>
+                    </div>
                     <img
-                        className={'w-full'}
+                        className={'w-full pt-5'}
                         src={'/pic/shxbs_logo.png'}
                     />
                 </div>

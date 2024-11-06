@@ -35,7 +35,7 @@ const Header = ({ currentPage, isTopWhite }) => {
 
             {/* 右侧页面按钮 */}
             <nav className="flex space-x-6">
-                {['Home', 'People', 'Publication', 'Contact'].map((page) => (
+                {['Home', 'Research', 'People', 'Publications', 'Positions', 'News'].map((page) => (
                     <Link
                         key={page}
                         to={`/${page.toLowerCase()}`}
