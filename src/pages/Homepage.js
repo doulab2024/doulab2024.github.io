@@ -25,7 +25,7 @@ const Home =()=>{
                 >
                     <img
                         className={'py-10'}
-                        src={'/pic/homePageResearch1.png'}
+                        src={'/pic/homepageResearch1.png'}
                     />
                     We conduct in-depth explorations of the regulatory patterns, mechanisms, and biological functions of non-coding RNAs and their chemical modifications in chromatin remodeling and gene transcription activation.
                 </div>
