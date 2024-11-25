@@ -8,6 +8,7 @@ module.exports = {
       textColor: {
         'main': '#ac0002',
         'sub': '#072ead',
+        'green' : '#2c6907'
       },
 
       // backgroundColor: {

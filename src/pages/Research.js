@@ -10,7 +10,8 @@ const Research =()=>{
             isTopWhite={true}
         />
         <ThemePic imgSrc={'/pic/themePic1.png'}/>
-        <div className={'mt-32 w-4/5 flex-c-n-fs-fs'}>
+        <div className={'mt-32 text-green text-2xl font-semibold font-optima pb-10'}>-- Our research --</div>
+        <div className={'w-4/5 flex-c-n-fs-fs'}>
             <img
                 className={'w-full my-10'}
                 src={'/pic/research1.png'}

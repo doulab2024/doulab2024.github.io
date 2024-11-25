@@ -11,7 +11,8 @@ const News =()=>{
             isTopWhite={true}
         />
         <ThemePic imgSrc={'/pic/themePic1.png'}/>
-        <div className={'mt-32 w-4/5 flex-c-n-fs-fs'}>
+        <div className={'mt-32 text-green text-2xl font-semibold font-optima pb-10'}>-- News --</div>
+        <div className={'w-4/5 flex-c-n-fs-fs'}>
             <div className={'h-16'}/>
             <Event
                 date={'11/01/2024'}
