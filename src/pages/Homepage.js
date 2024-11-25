@@ -34,7 +34,7 @@ const Home =()=>{
                 >
                     <img
                         className={'py-10'}
-                        src={'/pic/homePageResearch2.png'}
+                        src={'/pic/homepageResearch2.png'}
                     />
                     We analyze the causes and consequences of abnormal metabolism of non-coding RNAs and their chemical modifications in human diseases, such as neurodegenerative disorders, cancer, and aging.                </div>
                 <div
@@ -42,7 +42,7 @@ const Home =()=>{
                 >
                     <img
                         className={'py-10'}
-                        src={'/pic/homePageResearch3.png'}
+                        src={'/pic/homeP\pageResearch3.png'}
                     />
                     We investigate the fate-determining patterns or modules of non-coding through integrative data analysis and the application of artificial intelligence technology.                </div>
             </div>
