@@ -7,11 +7,11 @@ const People =()=>{//sdfsfd
     return <div className={'h-max w-full flex-c-n-c-c'}>
         <Header
             currentPage={'People'}
-            isTopWhite={true}
+            isTopWhite={false}
         />
-        <ThemePic imgSrc={'/pic/themePic1.png'}/>
+        {/*<ThemePic imgSrc={'/pic/themePic1.png'}/>*/}
         <div className={'h-32'}/>
-        <div className={'text-green text-2xl font-semibold font-optima pb-10'}>-- Meet our team --</div>
+        <div className={'text-green text-4xl font-semibold font-optima pb-10'}>--- Meet our team ---</div>
         <div//这里是第一行，只存放PI信息
             className={'w-4/5 flex-r-n-fs-c mb-20'}
         >

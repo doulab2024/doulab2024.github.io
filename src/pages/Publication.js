@@ -7,10 +7,10 @@ const Publication =()=>{
     return <div className={'h-max w-full flex-c-n-c-c'}>
         <Header
             currentPage={'Publications'}
-            isTopWhite={true}
+            isTopWhite={false}
         />
-        <ThemePic imgSrc={'/pic/themePic1.png'}/>
-        <div className={'mt-32 text-green text-2xl font-semibold font-optima pb-10'}>-- Our Publications --</div>
+        {/*<ThemePic imgSrc={'/pic/themePic1.png'}/>*/}
+        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>--- Our Publications ---</div>
         <div className={'w-4/5 flex-c-n-fs-fs'}>
             {/*<div className={'font-futura text-3xl font-bold mb-5'}>Google scholar</div>*/}
             {/*<div*/}
