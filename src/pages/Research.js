@@ -10,7 +10,7 @@ const Research =()=>{
             isTopWhite={false}
         />
         {/*<ThemePic imgSrc={'/pic/themePic1.png'}/>*/}
-        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>--- Our research ---</div>
+        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>—————— Our Research ——————</div>
         <div className={'w-4/5 flex-c-n-fs-fs'}>
             {/*<img*/}
             {/*    className={'w-full my-10'}*/}
@@ -45,7 +45,7 @@ const Research =()=>{
             <div
                 className={'text-main font-optima text-2xl font-bold mt-10 mb-5'}
             >
-                RBFOX2 recognizes paRNA m6A to suppress transcription and block myeloid leukaemia differentiation
+                RBFOX2 recognizes paRNA m<sup>6</sup>A to suppress transcription and block myeloid leukaemia differentiation
             </div>
             <div
                 className={'font-sans text-xl text-justify'}
@@ -59,7 +59,7 @@ const Research =()=>{
             <div
                 className={'text-main font-optima text-2xl font-bold mt-10 mb-5'}
             >
-                Exon architecture controls mRNA m6A suppression and gene expression
+                Exon architecture controls mRNA m<sup>6</sup>A suppression and gene expression
             </div>
             <div
                 className={'font-sans text-xl text-justify'}

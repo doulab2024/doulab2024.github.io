@@ -11,18 +11,18 @@ const News =()=>{
             isTopWhite={false}
         />
         {/*<ThemePic imgSrc={'/pic/themePic1.png'}/>*/}
-        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>--- News ---</div>
+        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>—————— News ——————</div>
         <div className={'w-4/5 flex-c-n-fs-fs'}>
             <div className={'h-16'}/>
             <Event
                 date={'11/01/2024'}
-                content={'Exciting news! The lab moved from 320 Yueyang Road in Xuhui District to 109 Yuanmei Road in Minhang District.'}
+                content={'Exciting news! The lab moved from 320 Yueyang Road in Xuhui District to 227 Yuanmei Road in Minhang District.'}
             />
             <Event
                 date={'07/01/2024'}
                 content={'Xiaoyang established her lab at the CEMCS, CAS'}
             />
-            <div className={'h-32'}/>
+            <div className={'h-80'}/>
         </div>
         <Footer/>
     </div>

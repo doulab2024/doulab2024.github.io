@@ -10,9 +10,9 @@ const Publication =()=>{
             isTopWhite={false}
         />
         {/*<ThemePic imgSrc={'/pic/themePic1.png'}/>*/}
-        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>--- Our Publications ---</div>
+        <div className={'mt-32 text-green text-4xl font-semibold font-optima pb-10'}>—————— Our Publications ——————</div>
         <div className={'w-4/5 flex-c-n-fs-fs'}>
-            {/*<div className={'font-futura text-3xl font-bold mb-5'}>Google scholar</div>*/}
+            <div className={'italic text-xl my-20'}>* co-first authors; # corresponding authors</div>
             {/*<div*/}
             {/*    className={'cursor-pointer underline mb-20'}*/}
             {/*    onClick={() => window.open('https://scholar.google.com/citations?hl=en&user=MuXZTEgAAAAJ&view_op=list_works&sortby=pubdate', '_blank')}*/}
@@ -79,21 +79,21 @@ const Publication =()=>{
             />
 
             <Paper
-                title={'19. METTL14 is a chromatin regulator independent of its RNA N6-methyladenosine methyltransferase activity'}
+                title={<span>19. METTL14 is a chromatin regulator independent of its RNA <span className={'italic'}>N<sup>6</sup></span>-methyladenosine methyltransferase activity</span>}
                 authors={'Xiaoyang Dou*, Lulu Huang*, Yu Xiao*, Chang Liu, Yini Li, Xinning Zhang, Lishan Yu, Ran Zhao, Lei Yang, Chuan Chen, Xianbin Yu, Boyang Gao, Meijie Qi, Yawei Gao, Bin Shen, Shuying Sun, Chuan He, Jun Liu'}
                 journal={'Protein & Cell'}
                 link={'https://doi.org/10.1093/procel/pwad009'}
             />
 
             <Paper
-                title={'18. RBFOX2 recognizes N6-methyladenosine to suppress transcription and block myeloid leukaemia differentiation'}
+                title={<span>18. RBFOX2 recognizes <span className={'italic'}>N<sup>6</sup></span>-methyladenosine to suppress transcription and block myeloid leukaemia differentiation</span>}
                 authors={'Xiaoyang Dou*, Yu Xiao*, Chao Shen*, Kitty Wang*, Tong Wu, Chang Liu, Yini Li, Xianbin Yu, Jun Liu, Qing Dai, Kinga Pajdzik, Chang Ye, Ruiqi Ge, Boyang Gao, Jianhua Yu, Shuying Sun, Mengjie Chen, Jianjun Chen, Chuan He'}
                 journal={'Nature Cell Biology'}
                 link={'https://www.nature.com/articles/s41556-023-01213-w'}
             />
 
             <Paper
-                title={<span>17. Globally reduced N6-methyladenosine (m<sup>6</sup>A) in C9ORF72-ALS/FTD dysregulates RNA metabolism and contributes to neurodegeneration</span>}
+                title={<span>17. Globally reduced <span className={'italic'}>N<sup>6</sup></span>-methyladenosine (m<sup>6</sup>A) in C9ORF72-ALS/FTD dysregulates RNA metabolism and contributes to neurodegeneration</span>}
                 authors={'Yini Li*, Xiaoyang Dou*, Jun Liu*, Yu Xiao, Zhe Zhang, Lindsey Hayes, Rong Wu, Xiujuan Fu, Yingzhi Ye, Bing Yang, Lyle W Ostrow, Chuan He, Shuying Sun'}
                 journal={'Nature neuroscience'}
                 link={'https://www.nature.com/articles/s41593-023-01374-9'}
@@ -146,7 +146,7 @@ const Publication =()=>{
             <div className={'font-futura text-3xl font-bold mb-14'}>2020</div>
 
             <Paper
-                title={'10. N6-deoxyadenosine methylation in mammalian mitochondrial DNA'}
+                title={<span>10. <span className={'italic'}>N<sup>6</sup></span>-deoxyadenosine methylation in mammalian mitochondrial DNA</span>}
                 authors={'Ziyang Hao*, Tong Wu*, Xiaolong Cui, Pingping Zhu, Caiping Tan, Xiaoyang Dou, Kai-Wen Hsu, Yueh-Te Lin, Pei-Hua Peng, Li-Sheng Zhang, Yawei Gao, Lulu Hu, Hui-Lung Sun, Allen Zhu, Jianzhao Liu, Kou-Juey Wu, Chuan He'}
                 journal={'Molecular cell'}
                 link={' https://www.cell.com/molecular-cell/fulltext/S1097-2765(20)30111-8'}
@@ -160,7 +160,7 @@ const Publication =()=>{
             />
 
             <Paper
-                title={'8. N6-methyladenosine of chromosome-associated regulatory RNA regulates chromatin state and transcription'}
+                title={<span>8. <span className={'italic'}>N<sup>6</sup></span>-methyladenosine of chromosome-associated regulatory RNA regulates chromatin state and transcription</span>}
                 authors={'Jun Liu*, Xiaoyang Dou*, Chuanyuan Chen*, Chuan Chen, Chang Liu, Meng Michelle Xu, Siqi Zhao, Bin Shen, Yawei Gao, Dali Han, Chuan He'}
                 journal={'Science'}
                 link={'https://www.science.org/doi/full/10.1126/science.aay6018'}

@@ -8,9 +8,9 @@ const Home =()=>{
             isTopWhite={false}
         />
         <div className={'h-32'}/>
-        <div className={'text-green text-4xl font-semibold font-optima pb-10'}>--- Welcome ---</div>
+        <div className={'text-green text-4xl font-semibold font-optima pb-28'}>—————— Welcome ——————</div>
         <div className={'text-6xl font-optima mb-4 font-bold'}>Dou Lab</div>
-        <div className={'text-3xl font-optima mb-20 font-semibold'}>RNA modification and chromatin regulation, computational biology</div>
+        <div className={'text-3xl font-optima mb-28 font-semibold'}>RNA modification and chromatin regulation, computational biology</div>
         {/*<img*/}
         {/*    className={'w-3/5 mb-20'}*/}
         {/*    src={'/pic/homePagePic1.png'}*/}
